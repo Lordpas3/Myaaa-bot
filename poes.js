@@ -12,4 +12,4 @@ client.on('message', msg => {
  }
  });
 
-client.login('Njg3MjkxMDM2NjM2NDEzOTY1.XmjujA.WSaTha1vBKjRkJeX1kWP3BmTvbY');
+client.login(process.env.BOT_TOKEN);

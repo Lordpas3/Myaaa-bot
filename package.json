@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js",
-      "dev": "nodemon index.js"
+      "start": "node poes.js",
+      "dev": "nodemon poes.js"
     },
     "dependencies": {
       "discord.js": "^11.4.2"
