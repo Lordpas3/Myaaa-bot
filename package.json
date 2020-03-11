@@ -1,7 +1,7 @@
 {
     "name": "Myaaa-bot",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "poes.js",
     "scripts": {
       "start": "node poes.js",
       "dev": "nodemon poes.js"
