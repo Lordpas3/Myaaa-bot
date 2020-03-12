@@ -7,8 +7,7 @@
     "dev": "nodemon poes.js"
   },
   "dependencies": {
-    "discord.js": "^11.4.2",
-    "mysql": "^2.18.1"
+    "discord.js": "^11.4.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"

@@ -12,4 +12,15 @@ client.on('message', msg => {
  }
  });
 
+
+// Database connection
+
+var mysql = require('mysql');
+
+var con = mysql.createConnection({
+  host: process.env.HOST,
+  user: process.env.USER,
+  password: process.env.PASSWORD
+});
+
 client.login(process.env.BOT_TOKEN);
