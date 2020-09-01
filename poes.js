@@ -10,7 +10,7 @@ client.on('message', msg => {
     if (msg.content === 'MYAAA') {
         msg.channel.send("", { files: ["./MYAAA.gif"] });
     }
-    if (msg.content === 'vibe' || 'kinglybounce') {
+    if (msg.content === 'vibe' || msg.content === 'kinglybounce') {
         msg.channel.send("", { files: ["./vibe.gif"] });
     }
 });
